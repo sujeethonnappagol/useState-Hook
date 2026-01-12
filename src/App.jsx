@@ -2,6 +2,7 @@ import { useState } from "react";
 import Counter from "./Comonents/Counter.jsx";
 import Alert from "./Comonents/Alert.jsx";
 import Loader from "./Comonents/Loader.jsx";
+import User from "./Comonents/User.jsx";
 function App(){
   let [age, setAge] = useState(20);
   return (
@@ -17,7 +18,8 @@ function App(){
 
     // <Counter />
     // <Alert />
-    <Loader />
+    // <Loader />
+    <User />
   )
 }
 
